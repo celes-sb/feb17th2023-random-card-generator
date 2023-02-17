@@ -4,24 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Card Generator | Vainilla.js</title>
+    <link rel="stylesheet" src="/workspace/vanillajs-hello/src/style.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
+  <body class="bg-success">
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Random Card Generator</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        Refresh this page to get a new card ;)
+      <h1 class="mt-5 text-white">Random Card Generator</h1>
+      <p class="alert alert-success w-25 p-1">
+        Refresh this page to get a new card 😉
       </p>
-      <div class="fixed-bottom p-4">
+      <div
+        id="card-body"
+        class="card text-center border border-secondary shadow-1"
+      >
+        <div class="text text-left">
+          <i class="fa-solid fa-heart-pulse"></i>
+        </div>
+        <div class="card-number">
+          <h5>7</h5>
+        </div>
+        <div><i class="fa-solid fa-heart-pulse"></div>
+      </div>
+      <div class="fixed-bottom p-4 text-white">
         Made with ❤️ by Celeste S. Bareiro under the guidance of
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a class="text-white" href="https://www.4geeksacademy.com"
+          >4Geeks Academy</a
+        >
       </div>
     </div>
   </body>
