@@ -4,11 +4,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card-number {
-  font-size: 50px;
-  font-weight: bold;
-}
-
 #card {
   height: 500px;
   width: 370px;
@@ -24,14 +19,10 @@ h1 {
 }
 
 h2 {
-  font-size: 200px;
-  margin: 50px;
-}
-
-.cardSymbol {
-  font-size: 55px;
-  text-align: left;
-  margin-left: 15px;
+  font-size: 95px;
+  margin: 95px;
+  font-weight: bold;
+  color: black;
 }
 
 #card-symbol-bottom {
@@ -39,17 +30,29 @@ h2 {
   transform: rotate(0.5turn);
 }
 .heartSymbol {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 15px;
   color: red;
 }
 
 .spadeSymbol {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 15px;
   color: black;
 }
 
 .clubSymbol {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 15px;
   color: black;
 }
 
 .diamondSymbol {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 15px;
   color: red;
 }
