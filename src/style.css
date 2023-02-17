@@ -15,6 +15,12 @@
   border-radius: 15px;
   background: white;
   text-align: center;
+  margin-left: 440px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 h2 {
