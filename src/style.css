@@ -1,6 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .class-number {
-  font-family: AbrilFatface;
   font-size: 50px;
+}
+
+#card-body {
+  height: 480px;
+  width: 370px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 200px;
+  margin: 50px;
+}
+
+.card-symbol {
+  font-size: 55px;
+  color: red;
+  text-align: left;
+  margin-left: 15px;
+}
+
+#card-symbol-bottom {
+  margin-right: 15px;
+  transform: rotate(0.5turn);
+  margin-top: 40px;
 }
