@@ -4,15 +4,17 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.class-number {
+.card-number {
   font-size: 50px;
+  font-weight: bold;
 }
 
-#card-body {
-  height: 480px;
+#card {
+  height: 500px;
   width: 370px;
   border-radius: 15px;
-  margin-bottom: 15px;
+  background: white;
+  text-align: center;
 }
 
 h2 {
@@ -20,9 +22,8 @@ h2 {
   margin: 50px;
 }
 
-.card-symbol {
+.cardSymbol {
   font-size: 55px;
-  color: red;
   text-align: left;
   margin-left: 15px;
 }
@@ -30,5 +31,19 @@ h2 {
 #card-symbol-bottom {
   margin-right: 15px;
   transform: rotate(0.5turn);
-  margin-top: 40px;
+}
+.heartSymbol {
+  color: red;
+}
+
+.spadeSymbol {
+  color: black;
+}
+
+.clubSymbol {
+  color: black;
+}
+
+.diamondSymbol {
+  color: red;
 }
