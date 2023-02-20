@@ -29,30 +29,25 @@ h2 {
   margin-right: 15px;
   transform: rotate(0.5turn);
 }
-.heartSymbol {
-  font-size: 60px;
+.cardSymbol {
+  font-size: 65px;
   text-align: left;
   margin-left: 15px;
-  color: red;
 }
 
-.spadeSymbol {
-  font-size: 60px;
-  text-align: left;
-  margin-left: 15px;
+.cardSymbol.black {
   color: black;
 }
 
-.clubSymbol {
-  font-size: 60px;
-  text-align: left;
-  margin-left: 15px;
-  color: black;
+.cardSymbol.red {
+  color: red;
 }
 
-.diamondSymbol {
-  font-size: 60px;
-  text-align: left;
-  margin-left: 15px;
-  color: red;
+.card-number {
+  font-size: 95px;
+}
+
+footer {
+  font-size: 8px;
+  text-align: right;
 }
